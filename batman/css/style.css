@@ -1,0 +1,71 @@
+header {
+    text-align: center;
+    background-color: #E5E5E5;
+}
+
+#cTitle{
+    text-align: center;
+    text-transform: uppercase;
+    color: #005677
+}
+
+h1{
+    background-color: #c4c4c4;
+    letter-spacing: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h2 {
+    background-color: #c4c4c4;
+    text-transform:uppercase;
+    letter-spacing: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    color: #005677
+}
+
+span {
+    font-weight: bold;
+}
+
+footer{
+    background-color: #005677;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    font-size: 25px;
+
+}
+
+.paddingSection {
+    padding-left: 280px;
+    padding-right: 280px;
+}
+
+dd{
+    padding-left: 39px;
+    padding-bottom: 7px;
+}
+
+.pMAIN{
+    padding-top: 60px;
+    padding-bottom: 120px;      
+}
+
+.ulItalic{
+    font-style: italic; 
+}
+
+li{
+    padding-bottom: 7px;
+}
+
+.footerInfo{
+    padding-right: 25px;
+    font-weight: normal;
+}
