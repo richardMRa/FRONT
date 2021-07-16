@@ -1,73 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Front Cat&Dog</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>PetShop</title>
 </head>
+
 <body>
     <header>
-        <div>Grandes ofertas en comederos
+        <div class="top">
+            <p>Grandes ofertas en comederos</p>
             <ul>
-                <li>Español[x]</li>
-                <li>$ARG</li>
+                <li>Español ⅴ</li>
+                <li>$ARG v</li>
             </ul>
         </div>
         <nav>
-            <section>
-                <div>
-                    <img src="img/Dog.svg" alt="">
-                    <img src="img/Front.svg" alt="">
-                    <img src="img/Cat&Dog.svg" alt="">
-                    <img src="img/Cat.svg" alt="">
-                </div>
+            <section class="title">
+                <img src="img/Dog.svg" alt="">
+                <h1><span>Front</span>Cat&Dog</h1><img src="img/Cat.svg" alt="">
             </section>
-           <section>
+            <section class="title">
                 <ul>
-                    <li>Categorías</li>
-                    <li>Pets</li>
-                    <li>Nosotros</li>
-                    <li>Contactanos</li>
+                    <li><i class="fas fa-paw"></i>Categorías</li>
+                    <li><i class="fas fa-paw"></i>Pets</li>
+                    <li><i class="fas fa-paw"></i>Nosotros</li>
+                    <li><i class="fas fa-paw"></i>Contactanos</li>
                 </ul>
-            </section> 
-            
+            </section>
         </nav>
     </header>
     <main>
-        <section>
-            <img src="img/background.svg" alt="">
-            <p>¡Es un placer tenerte aquí!</p>
-            <p>¡Comederos en descuento!</p>
-            <p><u>COMEDEROS</u></p>
+        <section class="banner">
+            <div>
+                <p><span>¡Es un placer tenerte aquí!</span></p>
+                <p>¡Comederos en descuento!</p>
+                <p><span id="button">COMEDEROS</span></p>
+            </div>
         </section>
         <section>
             <!--Productos-->
-            <img src="img/pawprint 1.svg" alt="">
-            <h2>Productos Destacados</h2>
-            <p>Comederos - Accesorios - Comida</p>
-            <div>
-                <img src="img/churrasquito.svg" alt="">
-                <p>Juguete Churrasquito</p>
-                <p>$150</p>
+            <div class="featured">
+                <img src="img/pawprint 1.svg" alt="">
+                <h2>Productos Destacados</h2>
+                <p>Comederos - Accesorios - Comida</p>
             </div>
-            <div>
-                <img src="img/comedero.svg" alt="">
-                <p>Comedero para perro</p>
-                <p>$250</p>
-            </div>
-            <div>
-                <img src="img/Huesito.svg" alt="">
-                <p>Juguete Huesito</p>
-                <p>$650</p>
-            </div>
+            <section class="topFeatured">
+                <div>
+                    <img src="img/churrasquito.svg" alt="">
+                    <p>Juguete Churrasquito</p>
+                    <p><span>$150</span></p>
+                </div>
+                <div>
+                    <img src="img/comedero.svg" alt="">
+                    <p>Comedero para perro</p>
+                    <p><span>$250</span></p>
+                </div>
+                <div>
+                    <img src="img/Huesito.svg" alt="">
+                    <p>Juguete Huesito</p>
+                    <p><span>$650</span></p>
+                </div>      
+            </section>
+
         </section>
     </main>
     <footer>
-        <div>
-            <p>Todos los derechos reservados Front End</p>
-        </div>
+        <p>Todos los derechos reservados Front End</p>
     </footer>
-    
+
 </body>
+
 </html>

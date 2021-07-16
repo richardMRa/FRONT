@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.banner{
+    background-color: rgb(244, 252, 255);
+    background-image: url(../img/bg1.png);
+    background-size: cover;
+    height: 300px;
+}
+body{
+    background-color: rgb(216, 241, 250);
+}
+
+.title{
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 85px;
+    
+}
