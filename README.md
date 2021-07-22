@@ -4,4 +4,4 @@
 ## Lemon Pie
 - https://richete05m.github.io/FRONT/lemonPie/index.html
 ## PetShop
-- https://richete05m.github.io/FRONT/petShop/index.html
+- https://richete05m.github.io/FRONT/Petshop/index.html
